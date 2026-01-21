@@ -1,0 +1,38 @@
+安装包目录：Siemens.NX.2206.1700.Win64-SSQ
+
+安装前退出杀毒软件
+
+1.安装java环境
+    以管理员身份运行 jre-8u212-windows-x64.exe
+    默认安装路径
+2.复制粘贴许可证文件夹Vendors
+    解压 .\_SolidSQUAD_\_SolidSQUAD_.7z
+    解压 .\_SolidSQUAD_\_SolidSQUAD_\Server下
+        SSQ_UniversalLicenseServer_Module_SiemensPLM_20220618195100
+            复制Vendors
+        SSQ_UniversalLicenseServer_Core_20180127075000
+            粘贴到 \SolidSQUAD_License_Servers下
+3.运行安装许可
+    复制 SolidSQUAD_License_Servers 文件夹，粘贴到C盘根目录
+    以管理员身份运行 install_or_update.bat
+4.运行NX2206安装程序
+    进入NX.2206.1700.Win64.iso ， 以管理员身份运行 launch.exe
+    点击 Install NX
+5.选择安装程序的语言：中文(简体)，下一步
+6.选择安装路径，下一步
+7.许可文件或“端口@主机”，填写 27800@计算机全名，下一步
+8.运行时语言，选择“简体中文”，下一步
+9.安装完成后，点击退出安装程序
+10.复制粘贴和谐文件夹NX2206
+    复制 .\_SolidSQUAD_\_SolidSQUAD_\Client下的NX2206文件夹
+    粘贴并替换到安装目录下
+11.合并注册表脚本文件
+    在.\_SolidSQUAD_\_SolidSQUAD_\下
+    右键 SolidSQUADLoaderEnabler.reg 合并，是，确定
+12.安装完成
+
+https://www.bilibili.com/opus/674126723999072296
+
+安装包链接: https://pan.baidu.com/s/1R-TuDyLhRVaL9M7vrmMi0w 提取码: 93ki
+
+www.ugsnx.com
